@@ -1,6 +1,7 @@
 server:
   port: 4001
 spring:
+  profiles: dev
   application:
     name: microservicecloud-user
   mvc:
@@ -12,7 +13,7 @@ spring:
     username: root
     password: 248092
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/park
+    url: jdbc:mysql://192.168.37.132:3306/park
     type: com.alibaba.druid.pool.DruidDataSource
     #   数据源其他配置
     initialSize: 5
