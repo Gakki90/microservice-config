@@ -48,7 +48,7 @@ logging:
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
-      defaultZone: http://eureka7004.com:7004/eureka/
+      defaultZone: http://192.168.37.132:7004/eureka/
   instance:
     instance-id: microservicecloud-user4001
 
