@@ -24,3 +24,10 @@ zuul:
     order.serviceId: microservicecloud-order
     order.path: /order/**
   ignored-services: "*"
+
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: false
