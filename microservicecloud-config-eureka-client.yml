@@ -13,7 +13,7 @@ spring:
     
 eureka: 
   instance: 
-    hostname: eureka7002.com #冒号后面必须要有空格
+    hostname: 192.168.37.132:7002 #冒号后面必须要有空格
   client: 
     register-with-eureka: false #当前的eureka-server自己不注册进服务列表中
     fetch-registry: false #不通过eureka获取注册信息
@@ -31,7 +31,7 @@ spring:
     
 eureka: 
   instance: 
-    hostname: eureka7001.com #冒号后面必须要有空格
+    hostname: http://192.168.37.132:7003 #冒号后面必须要有空格
   client: 
     register-with-eureka: false #当前的eureka-server自己不注册进服务列表中
     fetch-registry: false #不通过eureka获取注册信息
@@ -49,7 +49,7 @@ spring:
     
 eureka: 
   instance: 
-    hostname: eureka7004.com #冒号后面必须要有空格
+    hostname: http://192.168.37.132:7004 #冒号后面必须要有空格
   client: 
     register-with-eureka: false #当前的eureka-server自己不注册进服务列表中
     fetch-registry: false #不通过eureka获取注册信息
