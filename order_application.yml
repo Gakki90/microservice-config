@@ -13,7 +13,7 @@ spring:
     username: root
     password: 248092
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.37.132:3306/park
+    url: jdbc:mysql://192.168.37.132:3306/park?characterEncoding=utf-8
     type: com.alibaba.druid.pool.DruidDataSource
     #   \u6570\u636E\u6E90\u5176\u4ED6\u914D\u7F6E
     initialSize: 5
